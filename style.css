@@ -9,7 +9,7 @@ body{
 .navbar{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 nav{
     flex:1;
@@ -30,7 +30,7 @@ a{
 .container{
     max-width: 1500px;
     margin: auto;
-    padding-left: 25px;
+    padding-left: 0%;
     padding-right: 25px;
 }
 .row{
@@ -84,5 +84,14 @@ a{
     margin-bottom: 30px;
 }
 .col-3 img{
+    width: 100%;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
     width: 100%;
 }
